@@ -79,7 +79,7 @@ def extract_keypoints(results):
 DATA_PATH = os.path.join('MP_Data') 
 
 # Actions that we try to detect
-actions = np.array(['konusmak', 'icmek', 'aktif','kimseyok'])
+actions = np.array(['non-Working', 'Drinking', 'Working','Nobody'])
 
 # Thirty videos worth of data
 no_sequences = 30
